@@ -1,0 +1,17 @@
+[project]
+name = "pp-fx"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "LuPiJR", email = "l.picker@student.tugraz.at" }
+]
+requires-python = ">=3.13"
+dependencies = []
+
+[project.scripts]
+pp-fx = "pp_fx:main"
+
+[build-system]
+requires = ["uv_build>=0.9.7,<0.10.0"]
+build-backend = "uv_build"
