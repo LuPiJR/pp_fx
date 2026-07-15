@@ -8,4 +8,11 @@ wheels/
 
 # Virtual environments
 .venv
-/docs
+
+# Documentation is generated or staged separately, except executable examples.
+/docs/*
+!/docs/architecture/
+/docs/architecture/*
+!/docs/architecture/code_examples/
+.pi/
+.pytest_cache/
